@@ -17,9 +17,11 @@ python main.py --src SRC --collection COLLECTION [-h] [--out OUT]
 | `-h` or `--help` | shows the help info |
 | `--apply` | write files + build the zip (default is a dry run) |
 | `--keep-html-img` | keep <img> tags instead of converting to Markdown |
-| `--keep-dims` | keep width/height attributes on <img> |
-| `--keep-html-tables` | leave <table> HTML alone (Outline will likely drop it) |
+| `--keep-dims` | keep width/height attributes on `<img>` |
+| `--keep-html-tables` | leave `<table>` HTML alone (Outline will likely drop it)|
 | `--no-slug` | keep original asset filenames (UNSAFE for Outline) |
+
+
 
 ## Notice
 
