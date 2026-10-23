@@ -1,18 +1,17 @@
 # trilium2outline
 
-A quick tool I threw together with AI to convert a [Trilium](https://github.com/TriliumNext/Trilium) markdown export zip to an [Outline](https://github.com/outline/outline) import zip.
-
-> [!WARNING]
-> I have only tested this script on MacOS 27.0.1. I believe it will work on all platform however I make no guarantee
+A quick tool I threw together with help from AI to convert a [Trilium](https://github.com/TriliumNext/Trilium) markdown export zip to an [Outline](https://github.com/outline/outline) import zip.
 
 > [!NOTE]
-> I will not be maintaining this project. Feel free to create your own forks or send a merge request with the fix to add features and fix issues.
+> I have tested this script on MacOS, Arch Linux and Windows all running python 3.14.7.
+> 
+> I will not be actively maintaining this project. Feel free to create your own forks or send a merge request with the fix to add features and fix issues.
 
 
 ## Usage
 
 ```bash
-python main.py --src SRC --collection COLLECTION [-h] [--out OUT]
+python main.py --src /path/to/extracted/export --collection "My Collection Name" [-h] [--out OUT]
                 [--zip ZIP] [--apply] [--keep-html-img] [--keep-dims]
                 [--no-slug]
 ```
